@@ -1,0 +1,160 @@
+<DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="response.css">
+ <style>
+  *{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:"poppins", san-serif;
+}
+
+body{
+ min-height:100vh;
+ width:100%;
+ background:rgba(25,26,49);
+ display:flex;
+ align-items:center;
+ justify-content:center;
+}
+.container{
+ width:80%;
+ background:white;
+ padding:20px 60px 40px 40px;
+ border:;
+ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container .content{
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ 
+}
+.container .content .left-slide{
+ width:25%;
+ height:100%;
+ }
+ .content .left-slide .detail{
+  margin:14px;
+  text-align:center;
+ }
+ .content .left-slide .detail .topic{
+  font-size:18px;
+  font-weight:bold;
+ }
+ .content .left-slide::before{
+ content: '';
+ position:absolute;
+ height:70%;
+ background: #afafb6;
+ right:-15px;
+ top:50%;
+ }
+.container .content .right-slide{
+ width:75%;
+ margin-left:90px;
+}
+.content .right-slide .topic-text{
+ font-size:30px;
+ font-family:arial;
+ font-weight:bold;
+ text-align:center;
+ margin:6px;
+ line-height:30px;
+}
+.content .right-slide .topic-text p{
+ font-family:poppins;
+ margin:10px;
+ line-height:10px;
+ text-align:center;
+}
+.content .right-slide form{
+ width:450px;
+ height:auto;
+ margin:auto;
+}
+form .input-box{
+ width:500px;
+}
+.input-box input{
+ width:450px;
+ height:30px;
+ padding:5px;
+ border:;
+ border-radius:3px;
+}
+.input-box input:focus{
+ outline:none;
+}
+textarea {
+ width:450px;
+ height:50px;
+}
+.back{
+ background:rgb(255,255,255,.2);
+ width:80px;
+ border-radius:6px;
+ padding:6px;
+ text-align:center;
+ 
+}
+.back a{
+ color:white;
+ 
+}
+.button input{
+ background:orange;
+ border-radius:6px;
+}
+ </style>
+</head>
+<body>
+
+ <div class="container">
+  <div class="content">
+   <div class="left-slide">
+    <div class="adress detail">
+     <div class="topic">Adress</div>
+      <div class="text-one">VOA RIA Highway</div>
+      <div class="text-two">Monrovia Liberia</div>
+    </div>
+     <div class="phone detail">
+     <div class="topic">phone</div>
+      <div class="text-one">0778 412 443</div>
+      <div class="text-two">0555 533 419</div>
+    </div>
+     <div class="email detail">
+     <div class="topic">email</div>
+      <div class="text-one">mardisonsomah23@gmail.com</div>
+      <div class="text-two">mardisonsomah23@gmail.com</div>
+    </div>
+   </div>
+     <div class="right-slide">
+      <div class="topic-text">send us a message</div>
+      <p>if you have any work for me or any types <br>of quiries relating to my work, you can send me a message from here. <br>it my peasure to help you</p>
+     
+     <form action="">
+      <div class="input-box">
+      <input type="text" placeholder="enter your full-name here">
+      </div>
+       <div class="input-box">
+      <input type="text" placeholder="enter your email here">
+      </div>
+       <div class="input-box mesasge-box">
+       <textarea name="" rows="" cols=""></textarea>
+      </div>
+       <div class="button">
+      <input type="button" value="send now">
+      </div>
+     </form>
+     </div>
+  </div>
+ </div>
+ <div class="back">
+ <a href="../mardison.html">Back</a>
+</div>
+</body>
+</html>
